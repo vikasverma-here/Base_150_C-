@@ -69,3 +69,206 @@ using namespace std;
 //     }
 //  cout << current;
 // }
+
+// pattern one 1  ================================================================================>
+
+// 1 1 1 1 1 
+// 1 1 1 1 1
+// 1 1 1 1 1 
+// 1 1 1 1 1 
+// 1 1 1 1 1 
+
+// int main (){
+//     int row , col ;
+//     for (row = 1 ; row <=5; row++){
+//         for(col=1;col<=5; col++){
+//             cout<<" 1 " ;
+           
+//         }
+
+//         cout<<endl;
+//     }
+//     return 0;
+// }
+
+// QUESTION TWO  =================================================================================================>
+// 1 2 3 4 5 
+// 1 2 3 4 5
+// 1 2 3 4 5
+// 1 2 3 4 5
+// 1 2 3 4 5
+
+// int main (){
+//     int row , col ;
+//     for (row = 1 ; row<=5 ; row++){
+//         for (col=1 ; col<=5; col++){
+//             cout<<col<<" ";
+//         }
+//         cout<<endl;
+//     }
+
+// QUESTION THREE ===============================================================================================================>
+// 5 4 3 2 1
+// 5 4 3 2 1
+// 5 4 3 2 1
+// 5 4 3 2 1
+// 5 4 3 2 1
+// int main (){
+//     int row , col ;
+//     for(row =1 ; row <=5 ; row ++){
+//         for(col=5; col>=1; col--){
+//             cout<<col<<" ";
+//         }
+//         cout<<endl;
+//     }
+    
+// }
+
+// QUESTION FOURTH =====================================================================================================>
+// 1 2 3 4 5 
+// 6 7 8 9 10
+// 11 12 13 14 15 
+// 16 17 18 19 20 
+// 21 22 23 24 25 
+
+// int main (){
+//     int row , col , count =1;
+//     for(row=1; row <=5 ; row++){
+//         for(col=1 ; col<=5; col++){
+//             cout << count << " ";
+//             count= count+1 ; 
+//         }
+//         cout<< endl;
+//     }
+// }
+
+// QUESTIOJN FIFTH ==============================================================================================>
+// *
+// * *
+// * * * 
+// * * * *
+// * * * * * *
+
+// int main (){
+//     int row , col;
+//     for (row =1 ; row <=5 ; row++){
+//         for(col=1; col<=row ; col++){
+//          cout<<" * ";
+//         }
+//         cout<<endl;
+//     }
+// }
+
+
+// QUESTTION SIX ==========================================================================================>
+// 1
+// 1 2 
+// 1 2 3 
+// 1 2 3 4
+// 1 2 3 4 5
+// int main (){
+//     int row , col;
+//     for (row =1; row <= 5 ; row++){
+//         for (col=1;col<=row; col++){
+//             cout<<col<<" ";
+//         }
+
+//         cout<<endl;
+//     }
+// }
+
+// QUESTION 7 ==================================================================================================>
+// a a a a a a 
+// b b b b b b 
+// c c c c c c
+// d d d d d d 
+// e e e e e e 
+// int main (){
+//     int row , col ;
+//     for ( row =1 ; row<=5 ; row++){
+//         char c = 'a';
+//         for ( col=1; col<=5; col++){
+//             cout<<'c'+row-1 << " ";
+//         }
+//         cout<<endl;
+//     }
+// }
+
+
+
+// QUESTION 8 =============================================================================================================>
+// a
+// a b 
+// a b c 
+// a b c d 
+// a b c d e
+// int main (){
+//     int row , col ;
+//     for ( row =1 ; row<=5 ; row++){
+//         char c = 'a';
+//         for ( col=1; col<=row; col++){
+//             cout<<'c'+col-1 << " ";
+//         }
+//         cout<<endl;
+//     }
+// }    
+
+
+// QUESTION NUMBER 9==============================================================================================================>  
+    //       *
+    //     * * *
+    //   * * * * *
+    // * * * * * * *  
+        
+       // 1-FIRST LOOP FOR ROWS ROW<=NUMBER OF ROWS 
+       // 2-SECOND LOOP FOR SPACE PRINTING COL<=TOTAL NUMBER OF ROWS - ROW NUMBER 
+      // 3-THIRD LOOP FOR STAR PRINTING  (COL<=2*ROW NUMBER -1)
+ 
+
+    //  int main (){
+    //     int row , col , total_rows;
+    //     cout << " Enter a Number of rows ";
+    //     cin>> total_rows;
+        
+    //     for (row=1; row<=total_rows; row++){
+    //         SPACE
+    //         for(col=1; col<=total_rows-row; col++){
+    //             cout<<" ";
+    //         }
+    //         STAR 
+    //         for(col=1; col<=2*row-1; col++){
+    //             cout<<"*";
+    //         }
+    //         cout <<endl;
+    //     }
+    //  }
+
+    // QUESTION 9 =============================================================================================================================>
+//      *
+//     * *
+//    * * *
+//   * * * *
+//  * * * * *
+// * * * * * *
+//     1- FIRST TOTAL_ROWS TAKE INPUT  
+//     2- PRINT SPACE COL<=TOTAL_ROWS - ROW ;  
+//     3-PRINT STAR ROW TIMES OF STAR      
+
+//  int main(){
+//      int row , col , total_row;
+//     cout<<"Enter total rows ";
+//     cin>>total_row;
+//     ======>PRINTING ROW 
+//     for(row=1;row<=total_row;row++){
+//       ======>PRINTING SSPACE
+//         for(col=1; col<=total_row-row; col++){
+//          cout<<" ";
+//         }
+//         ======>PRINTING STAR
+//         for(col=1; col<=row;col++){
+//             cout<<"* ";
+//         }
+//         ========>NEW LINE 
+//         cout<<endl;
+//     }
+//  }  
