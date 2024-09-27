@@ -272,3 +272,72 @@ using namespace std;
 //         cout<<endl;
 //     }
 //  }  
+
+
+
+
+// QUESTION 10===================================================================================================================================>
+// *                 *
+// * *             * * 
+// * * *         * * * 
+// * * * *   * * * * *
+// * * * * * * * * * * 
+// ---------------------------------> FIRST WE WRIGHT CODE  FOR UPPER  PORTTION 
+// * * * *     * * * * 
+// * * *         * * * 
+// * *             * * 
+// *                 * 
+
+
+
+// ===========================-========================================================================================================>
+// Count digit of given number ------------->
+// how divide works 
+// int main (){
+//   int num=100,digit=129;
+
+//  int  divide = 129/10;
+
+//   cout<<divide;
+
+// }
+// !!!!!!!!!!!!!!!! acoutal code is here ----->
+    // int main (){
+    //   int num,n=10,digit=1;
+    //   cout<<"enter the number ";
+    //   cin>>num;
+    //   for(int i =1; i>0;i++){
+    //     if(num/n==0){
+    //       cout<<digit;
+    //       return 0;
+    //     }
+    //     n=n*10;
+    //     digit++;
+
+    //   }
+    // }
+
+// !!!!!!!!!!!!!!!!!!!!!USING WHILE LOOP -->
+// int main (){
+//   int num, n=10,digit=0,i;
+//   cout<<"enter the number" ;
+//   cin>>num;
+//   while(num){
+//     digit++;
+//     num =num/n;
+//   }
+//   cout<<digit;
+// }
+
+
+// REVERSE THE NUMBER ====================================================================================================================>
+// int main (){
+//   int num ,digit, sum=0;
+//   cin>>num;
+//   while(num){
+//     digit = num%10;
+//     sum = sum*10+digit;
+//     num = num/10;
+//   }
+//     cout <<sum;
+// }
