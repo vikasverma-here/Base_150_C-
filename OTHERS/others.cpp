@@ -287,10 +287,39 @@ using namespace std;
 // * * *         * * * 
 // * *             * * 
 // *                 * 
+// !!!!!!!!!CODE FOR UPER PORTION----->
+// int main (){
+//     int row , col,num,i;
+//     cout<<"enter the number of rows";
+//     cin>>num;
+//     for(row=1; row<=num; row++ ){
+//         for(col=1; col<=row; col++){
+//             cout<<"*";
+//         }
+//     for(col=1; col<=2*(num-row); col++){
+//         cout<<" ";
+//     }
+//      for(col=1; col<=row; col++){
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+//   !!!!!!!!!!!!!!!botttom part ---------->
+// for(row=1; row<=num-1; row++){
+//     for(col=1;col<=num-row;col++){
+//         cout<<"*";
+//     }
+//     for(col=1;col<=2*row;col++){
+//         cout<<" ";
+//     }
+//      for(col=1;col<=num-row;col++){
+//         cout<<"*";
+//     }
+//     cout<<endl;
+// }
+// }
 
-
-
-// ===========================-========================================================================================================>
+//!!!! ===========================-========================================================================================================>
 // Count digit of given number ------------->
 // how divide works 
 // int main (){
@@ -330,7 +359,7 @@ using namespace std;
 // }
 
 
-// REVERSE THE NUMBER ====================================================================================================================>
+// !!!! REVERSE THE NUMBER ====================================================================================================================>
 // int main (){
 //   int num ,digit, sum=0;
 //   cin>>num;
@@ -341,3 +370,84 @@ using namespace std;
 //   }
 //     cout <<sum;
 // }
+
+// !!!!COUNT DIGIT OF GIVEN NUMBER ==========================================================> 
+
+
+// int main (){
+//     int num , n=10, digit =1,i;
+//     cout<<"enter number for count digit";
+//     cin>>num;
+//     for (i=1;i>0;i++){
+//         if(num/n==0){
+//             cout<<digit;
+//             return 0;
+//         }
+//         n= n*10;
+//         digit++;
+//     }
+// }
+
+// !!!!!!!!!!! COUNT DIGIT USING WHILE ------------->
+// int main(){
+//     int num, n=10 , digit=0;
+//     cout <<"enter number";
+//     cin>>num;
+//     while (num)
+//     {
+//      digit++;
+//      num = num/n;
+//     }
+//     cout<<digit;
+    
+// }
+
+// !!!!!  REVERSE THE NUMBER ==============================================> 
+// int main (){
+//     int number , sum = 0 , n=10;
+//     cout<<"enter thhe number ";
+//     cin>>number;
+//     while (number)
+//     {
+//         int digit  = number%n;
+//         sum = sum*10+digit ; 
+//         number = number/n;
+      
+//     }
+//     cout<<sum;
+
+// }
+
+// !!!!!!!! PATTERN QUESTION ------------->
+// *********
+//   *******
+//    ******
+//     *****
+//      ****
+//       ***
+//        **
+//         *
+
+// int main (){
+//     int row , col  , num;
+//     cout<<"enter the number ";
+//     cin>>num;
+//     for(row=1;row<=num; row++){
+//         for (col=1;col<=row-1;col++){
+//             cout<<" ";
+//         }
+//         for(col=num ; col>=row;col--){
+//             cout<<"*";
+//         }
+
+//         cout<<endl;
+//     }
+// }
+
+// !!!!! PATTERN QUESTION ------------->
+// **********
+//  ********
+//   ******
+//    ****
+//     **
+//      *
