@@ -449,5 +449,43 @@ using namespace std;
 //  ********
 //   ******
 //    ****
-//     **
+//     ** 
 //      *
+
+
+// !!!!!!!!!!!!!!DECIMAL TO BINARY CONVERSION -=====================================>
+// int main(){
+//     int num,digit,multiply=1,sum=0;
+//     cout<<"enter the number  ";
+//     cin>>num;
+//     while (num>0){
+//         digit = num%2; 
+//         sum=sum+digit*multiply;
+//         num = num/2;
+//         multiply= multiply*10;
+
+//     }
+// cout<<sum;
+    
+// }
+
+
+// !!!!!!!!!!BINARY TO DECIMAL  code not working properly but working litle bit ok ============> 
+
+//  int main (){
+//     int num , digit ; 
+//     cout << "enter the number";
+//     cin>>num;
+//     while(num>0){
+//   digit = num%10;
+//   if(digit==0){
+//     digit ==1;
+//     cout<<digit;
+//   }else{
+    
+//     cout<<digit;
+//   }
+//  num=num/10;
+//     }
+    
+//  }
