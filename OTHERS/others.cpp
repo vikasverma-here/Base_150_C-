@@ -489,3 +489,78 @@ using namespace std;
 //     }
     
 //  }
+
+
+
+
+// !!!!!!!!!!!FUNCTION AND ARRAY =========================================================================>  
+
+
+// !!!!sum of two number using function --->
+
+// void add (int a, int b){
+//     cout<<a+b;
+//     return ;
+// }
+
+//  int main(){
+//     int num1,num2;
+//     cout<<"enter the num1  number ";
+//     cin>>num1;
+//     cout<<"enter the num2  number ";
+//     cin>>num2;
+//     add(num1,num2);
+//    return 0;
+//  }
+
+// !!!!!!even or odd using using function -------->
+// void evenodd(int number){
+//     if(number%2==0){
+//         cout<<number<<"this number is even ";
+        
+//     }else{
+//         cout<<number<<"this number is odd ";
+//     }
+//     return;
+// }
+
+// int main (){
+//     int num ;
+//     cout<<"enter the number the to check number is even or odd";
+//     cin>>num;
+//     evenodd(num);
+// }
+
+// !!!!!!! printing table using function ------>
+//  void table(int number){
+//     for(int i =1; i<=10; i++){
+//         cout<<number<<"*"<<i<<"="<<number*i<<endl;
+//     }
+//  return ;
+//  }
+
+// int main (){
+//     int num ;
+//     cout <<"enter the number for table ";
+//     cin>>num;
+//     table(num);
+// return 0;
+// }
+
+// !!!!factorial of a number using function ---------->
+// void fact(int number){
+//     int fact =1;
+//     for(int i = 1; i<=number; i++){
+//         fact = fact*i;
+      
+//     }
+//       cout<<"the of this "<<number<<"is "<<fact;
+//       return ;
+//  }
+// int main (){
+
+// int num;
+// cout<<"enter the number for the factorial ";
+// cin>>num;
+// fact(num);
+// }
