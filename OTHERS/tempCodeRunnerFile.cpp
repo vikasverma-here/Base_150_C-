@@ -1,2 +1,4 @@
- // cout<<"enter the two  number ";
-    // cin>>num;
+ // if(num>=1){
+    //     cout<<num <<": this number is not prime  ";
+
+    // }

@@ -564,3 +564,93 @@ using namespace std;
 // cin>>num;
 // fact(num);
 // }
+
+// !!!!!!!!!!!!! FUNCTION OVERLOADING ------------------->
+// *jab ek nam ke do ek jyada function ho our parameter ke hisab se kam kare use hi hum function overloading bolte hai --------?
+// int add(int a, int b){
+//     return a+b;
+
+// }
+// int add(int a, int b, int c ){
+//     return a+b-c;
+
+// }
+// int main (){
+//     cout<<add(46,3) <<endl;
+//     cout<<add(46,3,5);
+// }
+
+//! QUESTION !!!!!! ARRAY  ARR[8]={-3,7,11,-2,8,170,0,11} FIND THE MINIMUM ELEMENT ----?
+// int main (){
+//     int arr[8]={-23,7,11,-5,8,170,0,11};
+//     int min_val = arr[0];
+//     for(int i=1; i<=7;i++){
+//         if(arr[i]< min_val){
+//             min_val = arr[i];
+//         }
+//     }
+
+//     cout<<min_val;
+// }
+
+
+// !!! QUESTON PRINT ODD NUMBER IN USING ARRA----->?
+
+// int main (){
+//     int arr[10]={3,24,32,4,45,3,4,3,4,-11,};
+//     for (int i=0; i<=9; i++){
+//         if(arr[i]%2 != 0 || arr[i]%2==-1){
+//             cout<<arr[i] <<endl;
+//         }
+//     }
+// }                       
+
+// !!! QUESTION PRINT EVEN NUMBER ------>?
+
+// int main(){
+//     int i;
+//     int arr[9]={2,102,3,12,10,2,3,21,};
+//     for( i = 0;i<9;i++){
+//         if(arr[i]%2==0){
+//             cout<<"number is even "<<arr[i] << endl ;
+//         }
+//     }
+// }
+
+
+// !!! QUESTION NUMBER IS PRIME OR NOT USING ARRAY and FUNCTION 
+
+// void prrime(int num ){
+// if(num<2)
+// return;
+
+// for(int i=2; i<=num-1;i++){
+//     if(num%i==0)
+//     return;
+// }
+// cout<<num<<" ";
+// }
+
+// int main (){
+//     int arr[5]={2,23,343,20,334}; 
+//     for (int i =0;i<5; i++)
+//     prrime(arr[i]);
+// }
+
+// !!!! reverse an arrey by one element 
+
+// int main (){
+//     int arr[6]={3,4,12,32,2,34};
+//     int size = 6;
+//     int lastElement  = arr[size-1];
+//    cout<<lastElement;
+//    for(int i=size-1; i>0; i--){
+//     arr[i]=arr[i-1];
+//    }
+//    arr[0]=lastElement;
+//    cout << "arrey after reversing by one element ";
+//    for (int i=0; i<=size ; i++){
+//     cout<<arr[i]<<" ";
+//    }
+//    return 0;
+// }
