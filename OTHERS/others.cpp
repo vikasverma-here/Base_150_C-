@@ -744,3 +744,36 @@ using namespace std;
 // 6 5 4
 // 6 5
 // 6
+
+
+
+
+
+int main(){
+  int arr[] = {0, 2, 1, 2, 0};  // Input array
+    int n = sizeof(arr) / sizeof(arr[0]);  // Size of the array
+
+    int count0 = 0, count1 = 0, count2 = 0;
+
+    // First pass: count the number of 0s, 1s, and 2s
+    for (int i = 0; i < n; i++) {
+        if (arr[i] == 0) {
+            count0++;
+        } else if (arr[i] == 1) {
+            count1++;
+        } else if (arr[i] == 2) {
+            count2++;
+        }
+    }
+
+    // Second pass: overwrite array with 0s, then 1s, then 2s
+    for (int i = 0; i < count0; i++) {
+        arr[i] = 0;  // Fill with 0s
+    }
+    for (int i = count0; i < count0 + count1; i++) {
+        arr[i] = 1;  // Fill with 1s
+    }
+    for (int i = count0 + count1; i < n; i++) {
+        arr[i] = 2;  // Fill with 2s
+    }
+}
